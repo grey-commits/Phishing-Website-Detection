@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files (optional: comment out if you want to track CSVs)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+
+# Logs and local state
+*.log
+*.pid
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python distribution
+build/
+dist/
+*.egg-info/
+
+# Streamlit cache
+.streamlit/
+
+# Compiled model files
+*.sav
+*.pkl
+*.h5
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+.cache
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# __init__.py files if they are empty
+**/__init__.pyc
